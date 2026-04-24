@@ -16,10 +16,11 @@ ResearchMind is a Streamlit-based multi-agent system powered by `langchain` and 
    pip install -r requirements.txt
    ```
 2. Set up environment variables:
-   Ensure you have a `.env` file containing your Mistral API key and other required variables (like Tavily/Google API keys if used in tools).
+   Ensure you have a `.env` file containing your Mistral API key and your Tavily API key for web search:
 
    ```env
    MISTRAL_API_KEY=your_mistral_api_key
+   TAVILY_API_KEY=your_tavily_api_key
    ```
    
 3. Run the application:
